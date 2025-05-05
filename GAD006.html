@@ -15,6 +15,7 @@
         <div class="flex items-center justify-between">
             <!--Logo-->
             <a href="index.html" class="text-md italic">Mahalaxmi Enterprises</a>
+
             <!--Other links-->
             <div class="space-x-3 text-sm hidden md:flex">
                 <a href="index.html">Home</a>
@@ -22,8 +23,26 @@
                 <a href="categories.html">Product Categories</a>
                 <a href="contactinfo.html">Contact Info</a>
             </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block md:hidden hamburger focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
 
+
+        <!--Mobile Hamburger Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="hidden absolute text-black flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Product Categories</a>
+                <a href="contactinfo.html">Contact Info</a>
+            </div>
+        </div>
     </nav>
 
     <!--Product Details-->
@@ -62,23 +81,23 @@
                 <!--Full features with in unordered list-->
                 <ul class="list-disc px-5 lg:text-lg">
                     <li>
-                        <strong>Powerful 150W Output: </strong>Ensures clear and loud communication  
+                        <strong>Powerful 150W Output: </strong>Ensures clear and loud communication
                     </li>
 
                     <li>
-                        <strong>Built-in Recorder: </strong>Pre-record messages for consistent playback  
+                        <strong>Built-in Recorder: </strong>Pre-record messages for consistent playback
                     </li>
 
                     <li>
-                        <strong>Ergonomic Handheld Design: </strong>Comfortable grip for easy portability  
+                        <strong>Ergonomic Handheld Design: </strong>Comfortable grip for easy portability
                     </li>
 
                     <li>
-                        <strong>Ideal for Public Use: </strong>Perfect for announcements, rallies & events  
+                        <strong>Ideal for Public Use: </strong>Perfect for announcements, rallies & events
                     </li>
 
                     <li>
-                        <strong>Reliable Sound Amplification: </strong>Projects your voice far & wide  
+                        <strong>Reliable Sound Amplification: </strong>Projects your voice far & wide
                     </li>
                 </ul>
 
@@ -97,8 +116,11 @@
 
         </div>
     </section>
+
     <!--Script  for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</body>
+
+    <!--Script for Hamburger mobile menu-->
+    <script src="script.js"></script>
 
 </html>

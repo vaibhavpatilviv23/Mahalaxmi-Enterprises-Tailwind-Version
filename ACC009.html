@@ -15,6 +15,7 @@
         <div class="flex items-center justify-between">
             <!--Logo-->
             <a href="index.html" class="text-md italic">Mahalaxmi Enterprises</a>
+
             <!--Other links-->
             <div class="space-x-3 text-sm hidden md:flex">
                 <a href="index.html">Home</a>
@@ -22,8 +23,25 @@
                 <a href="categories.html">Product Categories</a>
                 <a href="contactinfo.html">Contact Info</a>
             </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block md:hidden hamburger focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
 
+        <!--Mobile Hamburger Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="hidden absolute text-black flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Product Categories</a>
+                <a href="contactinfo.html">Contact Info</a>
+            </div>
+        </div>
     </nav>
 
     <!--Product Details-->
@@ -35,10 +53,12 @@
         <div class="grid sm:grid-cols-2 gap-5 my-5 mx-4">
             <!--Product images-->
             <div class="grid grid-cols-2 gap-3">
-                <div><img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC009_1.jpg.png" alt="USB A to Type C cable"
+                <div><img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC009_1.jpg.png"
+                        alt="USB A to Type C cable"
                         class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50 border-3 rounded-sm"></div>
                 <div>
-                    <img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC009_2.jpg.png" alt="USB A to Type C cable"
+                    <img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC009_2.jpg.png"
+                        alt="USB A to Type C cable"
                         class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50 border-3 rounded-sm">
                 </div>
             </div>
@@ -96,8 +116,12 @@
 
         </div>
     </section>
+
     <!--Script  for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for Hamburger mobile menu-->
+    <script src="script.js"></script>
 </body>
 
 </html>

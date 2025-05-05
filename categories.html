@@ -23,6 +23,24 @@
                 <a href="categories.html">Product Categories</a>
                 <a href="contactinfo.html">Contact Info</a>
             </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block md:hidden hamburger focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!--Mobile Hamburger Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute text-black hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Product Categories</a>
+                <a href="contactinfo.html">Contact Info</a>
+            </div>
         </div>
     </nav>
 
@@ -34,7 +52,8 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 my-3 mx-5">
             <a href="accessories.html">
                 <div class="card space-y-2">
-                    <img src="Assets/Images/Product Category Images/Mobile & Computer Accessories.jfif" alt="Mobile And Computer Accessories"
+                    <img src="Assets/Images/Product Category Images/Mobile & Computer Accessories.jfif"
+                        alt="Mobile And Computer Accessories"
                         class="product-img xl:w-50 xl:h-50 lg:w-45 lg:h-45 md:w-35 md:h-35 sm:w-30 sm:h-30 w-30 h-30 rounded-lg border-3 border-blue-900 mx-auto">
                     <h5 class="text-xs font-bold text-center">Mobile And Computer Accessories</h5>
                 </div>
@@ -66,7 +85,8 @@
 
             <a href="#">
                 <div class="card space-y-2">
-                    <img src="Assets/Images/Product Category Images/Mobile & Computer parts.jfif" alt="Mobile & computer Parts"
+                    <img src="Assets/Images/Product Category Images/Mobile & Computer parts.jfif"
+                        alt="Mobile & computer Parts"
                         class="product-img xl:w-50 xl:h-50 lg:w-45 lg:h-45 md:w-35 md:h-35 sm:w-30 sm:h-30 w-30 h-30 rounded-lg border-3 border-blue-900 mx-auto">
                     <h5 class="text-xs font-bold text-center">Mobile & computer Parts</h5>
                 </div>
@@ -77,6 +97,8 @@
     <!--Script  for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!--Script for Hamburger mobile menu-->
+    <script src="script.js"></script>
 </body>
 
 </html>

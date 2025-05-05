@@ -23,6 +23,24 @@
                 <a href="categories.html">Product Categories</a>
                 <a href="contactinfo.html">Contact Info</a>
             </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block md:hidden hamburger focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!--Mobile Hamburger Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute text-black hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Product Categories</a>
+                <a href="contactinfo.html">Contact Info</a>
+            </div>
         </div>
     </nav>
 
@@ -74,7 +92,8 @@
 
             <a href="GAD005.html">
                 <div id="GAD005" class="hover:shadow-lg py-3 space-y-3">
-                    <img src="Assets/Images/Product Images/Gadgets/GAD005_1.jfif" alt="Rechargable metal keychain with light"
+                    <img src="Assets/Images/Product Images/Gadgets/GAD005_1.jfif"
+                        alt="Rechargable metal keychain with light"
                         class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50">
                     <h5 class="text-center hover:text-blue-500">Rechargable metal keychain with light</h5>
                     <h6 class="text-center text-md">Rs-199</h6>
@@ -84,9 +103,11 @@
 
             <a href="GAD006.html">
                 <div id="GAD006" class="hover:shadow-lg py-3 space-y-3">
-                    <img src="Assets/Images/Product Images/Gadgets/GAD006_1.jfif" alt="Foxpro Speaker 150 Watts Handheld Megaphone with Recorder"
+                    <img src="Assets/Images/Product Images/Gadgets/GAD006_1.jfif"
+                        alt="Foxpro Speaker 150 Watts Handheld Megaphone with Recorder"
                         class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50">
-                    <h5 class="text-center hover:text-blue-500">Foxpro Speaker 150 Watts Handheld Megaphone with Recorder</h5>
+                    <h5 class="text-center hover:text-blue-500">Foxpro Speaker 150 Watts Handheld Megaphone with
+                        Recorder</h5>
                     <h6 class="text-center text-md">Rs-999</h6>
                     <h5 class="text-center text-sm">MRP Rs- <span class="line-through">1999</span></h5>
                 </div>
@@ -114,7 +135,8 @@
 
             <a href="GAD009.html">
                 <div id="GAD009" class="hover:shadow-lg py-3 space-y-3">
-                    <img src="Assets/Images/Product Images/Gadgets/GAD009_1.jfif" alt="8-in-1 Board with USB Port for charging"
+                    <img src="Assets/Images/Product Images/Gadgets/GAD009_1.jfif"
+                        alt="8-in-1 Board with USB Port for charging"
                         class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50">
                     <h5 class="text-center hover:text-blue-500">8-in-1 Board with USB Port for charging</h5>
                     <h6 class="text-center text-md">Rs-999</h6>
@@ -137,6 +159,9 @@
 
     <!--Script  for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for Hamburger mobile menu-->
+    <script src="script.js"></script>
 </body>
 
 </html>

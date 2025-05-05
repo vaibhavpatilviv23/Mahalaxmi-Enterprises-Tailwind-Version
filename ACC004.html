@@ -22,8 +22,25 @@
                 <a href="categories.html">Product Categories</a>
                 <a href="contactinfo.html">Contact Info</a>
             </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block md:hidden hamburger focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
 
+        <!--Mobile Hamburger Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="hidden absolute text-black flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Product Categories</a>
+                <a href="contactinfo.html">Contact Info</a>
+            </div>
+        </div>
     </nav>
 
     <!--Product Details-->
@@ -35,11 +52,12 @@
         <div class="grid sm:grid-cols-2 gap-5 my-5 mx-4">
             <!--Product images-->
             <div class="grid grid-cols-2 gap-3">
-                <div><img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC004_1.jpg" alt="Airpods 3 Clone"
-                        class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50 border-3 rounded-sm"></div>
+                <div><img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC004_1.jpg"
+                        alt="Airpods 3 Clone" class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50 border-3 rounded-sm">
+                </div>
                 <div>
-                    <img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC004_2.jfif" alt="Airpods 3 Clone"
-                        class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50 border-3 rounded-sm">
+                    <img src="Assets/Images/Product Images/Mobile & Computer Accessories/ACC004_2.jfif"
+                        alt="Airpods 3 Clone" class="mx-auto w-33 sm:w-35 md:w-40 lg:w-45 xl:w-50 border-3 rounded-sm">
                 </div>
             </div>
 
@@ -66,15 +84,18 @@
                     </li>
 
                     <li>
-                        <strong>Reliable Data Transfer: </strong>Enables seamless file transfers with enhanced speed and stability.  
+                        <strong>Reliable Data Transfer: </strong>Enables seamless file transfers with enhanced speed and
+                        stability.
                     </li>
 
                     <li>
-                        <strong>Universal Compatibility: </strong>Works with smartphones, tablets, laptops, and other USB-C devices.  
+                        <strong>Universal Compatibility: </strong>Works with smartphones, tablets, laptops, and other
+                        USB-C devices.
                     </li>
 
                     <li>
-                        <strong>Compact & Convenient: </strong> Lightweight design for easy portability and everyday use.  
+                        <strong>Compact & Convenient: </strong> Lightweight design for easy portability and everyday
+                        use.
                     </li>
                 </ul>
 
@@ -93,8 +114,12 @@
 
         </div>
     </section>
+
     <!--Script  for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for Hamburger mobile menu-->
+    <script src="script.js"></script>
 </body>
 
 </html>

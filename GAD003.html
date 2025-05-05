@@ -15,6 +15,7 @@
         <div class="flex items-center justify-between">
             <!--Logo-->
             <a href="index.html" class="text-md italic">Mahalaxmi Enterprises</a>
+
             <!--Other links-->
             <div class="space-x-3 text-sm hidden md:flex">
                 <a href="index.html">Home</a>
@@ -22,8 +23,25 @@
                 <a href="categories.html">Product Categories</a>
                 <a href="contactinfo.html">Contact Info</a>
             </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block md:hidden hamburger focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
 
+        <!--Mobile Hamburger Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="hidden absolute text-black flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Product Categories</a>
+                <a href="contactinfo.html">Contact Info</a>
+            </div>
+        </div>
     </nav>
 
     <!--Product Details-->
@@ -60,23 +78,23 @@
                 <!--Full features with in unordered list-->
                 <ul class="list-disc px-5 lg:text-lg">
                     <li>
-                        <strong>Powerful Illumination: </strong>Bright beam for exploring, camping & emergencies  
+                        <strong>Powerful Illumination: </strong>Bright beam for exploring, camping & emergencies
                     </li>
 
                     <li>
-                        <strong>Hands-Free Convenience: </strong>Secure holder for easy placement & usability  
+                        <strong>Hands-Free Convenience: </strong>Secure holder for easy placement & usability
                     </li>
 
                     <li>
-                        <strong>USB Rechargeable: </strong>Hassle-free charging for reliable performance  
+                        <strong>USB Rechargeable: </strong>Hassle-free charging for reliable performance
                     </li>
 
                     <li>
-                        <strong>Durable Build: </strong>Designed for long-lasting use in any situation  
+                        <strong>Durable Build: </strong>Designed for long-lasting use in any situation
                     </li>
 
                     <li>
-                        <strong>Versatile Companion: </strong> Ideal for outdoor adventures & everyday needs  
+                        <strong>Versatile Companion: </strong> Ideal for outdoor adventures & everyday needs
                     </li>
                 </ul>
 
@@ -95,8 +113,12 @@
 
         </div>
     </section>
+
     <!--Script  for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for Hamburger mobile menu-->
+    <script src="script.js"></script>
 </body>
 
 </html>

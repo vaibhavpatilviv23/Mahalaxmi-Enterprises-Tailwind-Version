@@ -23,6 +23,24 @@
                 <a href="categories.html">Product Categories</a>
                 <a href="contactinfo.html">Contact Info</a>
             </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block md:hidden hamburger focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!--Mobile Hamburger Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute text-black flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Product Categories</a>
+                <a href="contactinfo.html">Contact Info</a>
+            </div>
         </div>
     </nav>
 
@@ -34,11 +52,13 @@
         <div class="grid sm:grid-cols-2 gap-5 mx-10 my-5">
             <!--Logo-->
             <div>
-                <img src="Assets/Images/Logo/Brand Logo Cropped.jpg" alt="Mahalaxmi Enterprises Logo" class="w-60 h-60 mx-auto border-3 border-white rounded-lg">
+                <img src="Assets/Images/Logo/Brand Logo Cropped.jpg" alt="Mahalaxmi Enterprises Logo"
+                    class="w-60 h-60 mx-auto border-3 border-white rounded-lg">
             </div>
 
             <!--Para-->
-            <p>For the past two decades, <strong>Mahalaxmi Enterprises</strong> has been a trusted name in Mumbai for all your mobile and
+            <p>For the past two decades, <strong>Mahalaxmi Enterprises</strong> has been a trusted name in Mumbai for
+                all your mobile and
                 computer accessory needs. We offer a comprehensive range of high-quality accessories alongside a
                 specialized selection of mobile repairing tools and machines. With 20 years of experience, we've built a
                 reputation for providing reliable products and catering to both individual customers and repair
@@ -55,14 +75,16 @@
             <!--Founder-->
             <div class="space-y-3">
                 <h5 class="text-center font-bold text-md">Founder</h5>
-                <img src="Assets/Images/Co-founder and CEO/Co-Founder.jfif" alt="Sunil Singh Founder" class="w-60 h-60 border-3 rounded-lg mx-auto">
+                <img src="Assets/Images/Co-founder and CEO/Co-Founder.jfif" alt="Sunil Singh Founder"
+                    class="w-60 h-60 border-3 rounded-lg mx-auto">
                 <p class="text-center"><strong>Sunil Singh</strong></p>
             </div>
 
             <!--CEO-->
             <div class="space-y-3">
                 <h5 class="text-center font-bold text-md">CEO</h5>
-                <img src="Assets/Images/Co-founder and CEO/Indian-CEO.jfif" alt="Param Singh Son CEO of Sunil Singh" class="w-60 h-60 border-3 rounded-lg mx-auto">
+                <img src="Assets/Images/Co-founder and CEO/Indian-CEO.jfif" alt="Param Singh Son CEO of Sunil Singh"
+                    class="w-60 h-60 border-3 rounded-lg mx-auto">
                 <p class="text-center"><strong>Param Singh</strong></p>
             </div>
         </div>
@@ -70,6 +92,9 @@
 
     <!--Script  for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for Hamburger mobile menu-->
+    <script src="script.js"></script>
 </body>
 
 </html>
